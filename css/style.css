@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/camels.jpeg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+  height: 300px;
+  display: flex;
+  padding: 2em;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,.7);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+h1, h2, p {
+  color: black;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(186, 26, 26);
+}
+
+#save-btn {
+    background: rgb(18, 129, 18);
+}
+
